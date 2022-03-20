@@ -1,17 +1,3 @@
-"""
-Created on Wed Feb  2 10:54:39 2022
-
-@Course: Algorithms of Numerical Linear Algebra
-@Submitted to: Benjamin Mann
-@author: Mert Alagözlü
-@id: 23008450
-------------------------------------------------
-Ran 6 tests in 0.031s
-
-OK
-------------------------------------------------
-"""
-
 import numpy as np
 from scipy.linalg import hilbert
 import matplotlib.pyplot as pl
@@ -133,16 +119,3 @@ if __name__ == "__main__":
             ax[i, j].set_title(f"A = {mat}, shift = {shift}")
     pl.show()
     
-"""
-Created on Wed Feb  2 10:54:39 2022
-
-@Course: Algorithms of Numerical Linear Algebra
-@Submitted to: Benjamin Mann
-@author: Mert Alagözlü
-@id: 23008450
-------------------------------------------------
-Ran 6 tests in 0.031s
-
-OK
-------------------------------------------------
-"""
